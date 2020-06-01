@@ -176,7 +176,7 @@ li {
   font-weight: bolder;
 }
 
-@media screen and (max-width: 1424px) {
+@media screen and (max-width: 1024px) {
   /*ウィンドウ幅が最大1024pxまでの場合に適用*/
   .features {
     padding-left: 53.1px;
@@ -260,7 +260,7 @@ li {
   margin-left: 208px;
 }
 
-@media screen and (max-width: 1424px) {
+@media screen and (max-width: 1024px) {
   /*ウィンドウ幅が最大1024pxまでの場合に適用*/
   .issues {
     margin-bottom: 75.7px;
