@@ -118,9 +118,14 @@ a:hover {
   opacity: .7;
 }
 
-/* header */
+/* -------------------------------- 
+
+header
+
+-------------------------------- */
 header {
-  margin-left: 245px;
+  margin-left: 183.75px;
+  background-color: #FAFAFA;
 }
 
 @media screen and (max-width: 1024px) {
@@ -137,27 +142,36 @@ header {
   }
 }
 
-/* features */
+/* -------------------------------- 
+
+features
+
+-------------------------------- */
 .features {
-  margin-bottom: 186px;
-  padding-left: 130px;
-  max-width: 100%;
+  margin-bottom: 139.5px;
+  padding-left: 97.5px;
   height: auto;
+  background-color: #FAFAFA;
+  max-width: 1100px;
 }
 
-.features-container {
+.features_container {
   display: flex;
 }
 
 .feature-title {
-  font-size: 65px;
-  margin: 53.5px 0 0 487px;
+  font-size: 48.76px;
+  margin: 39.75px 0 0 340.25px;
   position: absolute;
 }
 
 .feature-right {
-  font-size: 29px;
-  margin-left: 208px;
+  margin-right: 0;
+}
+
+.feature-left {
+  padding: 0;
+  margin: 0;
 }
 
 .img_product2 {
@@ -166,13 +180,14 @@ header {
 }
 
 ul {
-  margin: 197px 0px 0 112px;
-  font-size: 29px;
+  margin: 147.75px 110px 0 84px;
+  font-size: 18.75px;
+  text-align: left;
 }
 
 li {
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
   font-weight: bolder;
 }
 
@@ -189,10 +204,10 @@ li {
     margin-left: 224.3px;
   }
   .feautre-right {
-    margin-left: 114px;
+    margin-left: 84px;
   }
   ul {
-    margin: 114px 0 0 0;
+    margin: 114px 20px 0 45px;
     font-size: 16px;
   }
   li {
@@ -211,7 +226,6 @@ li {
   .features {
     padding-left: 42.5px;
     margin-bottom: 152.5px;
-    max-width: 100%;
   }
   .feature-title {
     font-size: 22px;
@@ -227,7 +241,7 @@ li {
     height: auto;
   }
   ul {
-    margin: 82px 0 0 0;
+    margin: 82px 20px 0 20px;
     font-size: 10px;
   }
   li {
@@ -236,11 +250,17 @@ li {
   }
 }
 
-/* issues */
+/* -------------------------------- 
+
+issues
+
+-------------------------------- */
 .issues {
-  margin-bottom: 250px;
-  padding-left: 41px;
-  max-width: 100%;
+  margin-bottom: 187.5px;
+  padding-left: 30px;
+  max-width: 1100px;
+  background-color: #FAFAFA;
+  height: auto;
 }
 
 .issue-container {
@@ -248,16 +268,23 @@ li {
 }
 
 .issue-title {
-  font-size: 65px;
+  font-size: 48.76px;
   position: absolute;
-  margin-left: 483px;
-  margin-top: 77.5px;
+  margin-left: 362px;
+  margin-top: 58px;
 }
 
 .issue-right {
-  font-size: 36px;
-  margin-top: 224px;
-  margin-left: 208px;
+  font-size: 20px;
+  margin-top: 168px;
+  text-align: left;
+  margin-left: 50.5px;
+  margin-right: 50px;
+}
+
+.img_product_for_issue {
+  width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -272,12 +299,16 @@ li {
     margin-top: 39.6px;
   }
   .issue-right {
-    font-size: 23px;
+    font-size: 18px;
     margin-top: 139px;
     margin-left: 140.9px;
   }
   .issue-left {
     margin-bottom: 143.2px;
+  }
+  .img_product_for_issue {
+    width: 318px;
+    height: auto;
   }
 }
 
@@ -300,48 +331,54 @@ li {
   .issue-left {
     margin-bottom: 75.7px;
   }
+  .img_product_for_issue {
+    width: 219px;
+    height: auto;
+  }
 }
 
-/* shops */
+/* -------------------------------- 
+
+shops
+
+-------------------------------- */
 .shops {
   background-color: #A0ADA7;
   padding-top: 139px;
-  padding-bottom: 178px;
-  max-width: 100%;
+  padding-bottom: 133.5px;
 }
 
 .section-title {
-  margin-left: 623.5px;
+  margin-left: 350px;
   display: flex;
   color: #FCF9F4;
-  font-size: 60px;
 }
 
 .shop-main-title {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
 }
 
 .subtitle {
-  font-size: 37px;
-  margin-top: 12px;
-  margin-left: 110.5px;
+  font-size: 28px;
+  margin-top: 12.75px;
+  margin-left: 40px;
 }
 
 .logos {
-  margin-top: 87px;
+  margin-top: 65.25px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  margin-left: -245px;
+  margin-left: -183px;
 }
 
 .logo {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1424px) {
+@media screen and (max-width: 1024px) {
   /*ウィンドウ幅が最大1024pxまでの場合に適用*/
   .shops {
     padding-top: 74.6px;
