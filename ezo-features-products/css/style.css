@@ -118,14 +118,9 @@ a:hover {
   opacity: .7;
 }
 
-/* -------------------------------- 
-
-header
-
--------------------------------- */
+/* header */
 header {
-  margin-left: 183.75px;
-  background-color: #FAFAFA;
+  margin-left: 245px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -142,36 +137,27 @@ header {
   }
 }
 
-/* -------------------------------- 
-
-features
-
--------------------------------- */
+/* features */
 .features {
-  margin-bottom: 139.5px;
-  padding-left: 97.5px;
+  margin-bottom: 186px;
+  padding-left: 130px;
+  max-width: 100%;
   height: auto;
-  background-color: #FAFAFA;
-  max-width: 1100px;
 }
 
-.features_container {
+.features-container {
   display: flex;
 }
 
 .feature-title {
-  font-size: 48.76px;
-  margin: 39.75px 0 0 340.25px;
+  font-size: 65px;
+  margin: 53.5px 0 0 487px;
   position: absolute;
 }
 
 .feature-right {
-  margin-right: 0;
-}
-
-.feature-left {
-  padding: 0;
-  margin: 0;
+  font-size: 29px;
+  margin-left: 208px;
 }
 
 .img_product2 {
@@ -180,14 +166,13 @@ features
 }
 
 ul {
-  margin: 147.75px 110px 0 84px;
-  font-size: 18.75px;
-  text-align: left;
+  margin: 197px 0px 0 112px;
+  font-size: 29px;
 }
 
 li {
-  padding-top: 10px;
-  margin-bottom: 10px;
+  padding-top: 20px;
+  margin-bottom: 20px;
   font-weight: bolder;
 }
 
@@ -204,10 +189,10 @@ li {
     margin-left: 224.3px;
   }
   .feautre-right {
-    margin-left: 84px;
+    margin-left: 114px;
   }
   ul {
-    margin: 114px 20px 0 45px;
+    margin: 114px 0 0 0;
     font-size: 16px;
   }
   li {
@@ -224,8 +209,14 @@ li {
 @media screen and (max-width: 767px) {
   /*ウィンドウ幅が最大767pxまでの場合に適用*/
   .features {
+<<<<<<< HEAD
     padding-left: 31.875px;
     margin-bottom: 114.375px;
+=======
+    padding-left: 42.5px;
+    margin-bottom: 152.5px;
+    max-width: 100%;
+>>>>>>> 26e0dee7ec2a9ece75887fc5df3f50c2ca61bb72
   }
   .feature-title {
     font-size: 16.5px;
@@ -241,8 +232,13 @@ li {
     height: auto;
   }
   ul {
+<<<<<<< HEAD
     margin: 61.5px 15px 0 15px;
     font-size: 7.5px;
+=======
+    margin: 82px 0 0 0;
+    font-size: 10px;
+>>>>>>> 26e0dee7ec2a9ece75887fc5df3f50c2ca61bb72
   }
   li {
     margin-bottom: 18.375px;
@@ -254,17 +250,11 @@ li {
   }
 }
 
-/* -------------------------------- 
-
-issues
-
--------------------------------- */
+/* issues */
 .issues {
-  margin-bottom: 187.5px;
-  padding-left: 30px;
-  max-width: 1100px;
-  background-color: #FAFAFA;
-  height: auto;
+  margin-bottom: 250px;
+  padding-left: 41px;
+  max-width: 100%;
 }
 
 .issue-container {
@@ -272,23 +262,16 @@ issues
 }
 
 .issue-title {
-  font-size: 48.76px;
+  font-size: 65px;
   position: absolute;
-  margin-left: 362px;
-  margin-top: 58px;
+  margin-left: 483px;
+  margin-top: 77.5px;
 }
 
 .issue-right {
-  font-size: 20px;
-  margin-top: 168px;
-  text-align: left;
-  margin-left: 50.5px;
-  margin-right: 50px;
-}
-
-.img_product_for_issue {
-  width: 100%;
-  height: auto;
+  font-size: 36px;
+  margin-top: 224px;
+  margin-left: 208px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -303,7 +286,7 @@ issues
     margin-top: 39.6px;
   }
   .issue-right {
-    font-size: 18px;
+    font-size: 23px;
     margin-top: 139px;
     margin-left: 140.9px;
   }
@@ -311,6 +294,7 @@ issues
     margin-bottom: 143.2px;
     margin-right: 450px;
   }
+<<<<<<< HEAD
   .img_product_for_issue {
     width: 318px;
     height: auto;
@@ -318,6 +302,8 @@ issues
   .issue-container {
     display: flex;
   }
+=======
+>>>>>>> 26e0dee7ec2a9ece75887fc5df3f50c2ca61bb72
 }
 
 @media screen and (max-width: 767px) {
@@ -340,6 +326,7 @@ issues
     margin-bottom: 0px;
     padding: 0px;
   }
+<<<<<<< HEAD
   .img_product_for_issue {
     width: 164.25px;
     height: auto;
@@ -349,50 +336,50 @@ issues
     flex-direction: column;
     margin-top: -50px;
   }
+=======
+>>>>>>> 26e0dee7ec2a9ece75887fc5df3f50c2ca61bb72
 }
 
-/* -------------------------------- 
-
-shops
-
--------------------------------- */
+/* shops */
 .shops {
   background-color: #A0ADA7;
   padding-top: 139px;
-  padding-bottom: 133.5px;
+  padding-bottom: 178px;
+  max-width: 100%;
 }
 
 .section-title {
-  margin-left: 350px;
+  margin-left: 623.5px;
   display: flex;
   color: #FCF9F4;
+  font-size: 60px;
 }
 
 .shop-main-title {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .subtitle {
-  font-size: 28px;
-  margin-top: 12.75px;
-  margin-left: 40px;
+  font-size: 37px;
+  margin-top: 12px;
+  margin-left: 110.5px;
 }
 
 .logos {
-  margin-top: 65.25px;
+  margin-top: 87px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  margin-left: -183px;
+  margin-left: -245px;
 }
 
 .logo {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1424px) {
   /*ウィンドウ幅が最大1024pxまでの場合に適用*/
   .shops {
     padding-top: 74.6px;
