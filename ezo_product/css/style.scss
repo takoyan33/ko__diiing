@@ -1,0 +1,219 @@
+@import "_base", "_variables";
+
+a:hover{
+  opacity: .7;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+}
+.row-inner {
+  display: table-row;
+}
+body[class*=vmenu-]:not(.menu-overlay):not(.menu-offcanvas) .logo-container {
+  padding: 36px 54px 0px 54px;
+}
+
+.logo-image{
+  text-align: center;
+  padding: 36px 54px 0px 54px;
+}
+* {
+.logo-container {
+text-align: center;
+}
+// .main-logo {
+//   position: relative;
+// }
+.logo-image {
+  display: block;
+  position: relative;
+}
+.logo-image{
+text-align: center;
+}
+
+.main_wrapper {
+  width: 100%;
+  height: 100%;
+}
+.box_container {
+  display: table;
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  position: relative;
+}
+.sections_container{
+  display: table;
+  table-layout: fixed;
+  background-color:gainsboro;
+}
+.header-wrapper {
+  display: table;
+  table-layout: fixed;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+
+.page-wrapper, .page-body {
+  display: table-row;
+  width: 100%;
+  height: 100%;
+}
+/* -------------------------------- 
+left side bar
+-------------------------------- */
+.left_side_bar{
+  width: 20%;
+  background:#FFFFFF;
+}
+.links{
+  padding-top: 211px;
+}
+.side_links{
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 17px;
+}
+a {
+  color:#707070;
+}
+a:active {
+  color: #707070;
+}
+@media screen and (max-width: 1024px) { /*ウィンドウ幅が最大1024pxまでの場合に適用*/
+  .left_side_bar{
+    display: none;
+  }
+}
+/* -------------------------------- 
+TOP
+-------------------------------- */
+.port-cat{
+  text-align: center;
+  width: 100%;
+}
+.port_cat_copy{
+  max-width: 500px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  color: #777777;
+}
+.port_cat_title
+{font-family: garamond-premier-pro-caption, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px !important;
+  line-height: 1em;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.port_cat_links{
+  margin-top: 20px;
+  font-size: 15px;
+  color: #303133;
+}
+.top{
+  padding: 72px;
+}
+@media screen and (max-width: 1024px) { /*ウィンドウ幅が最大1024pxまでの場合に適用*/
+  .top{
+    padding: 36px;
+  }
+  .port_cat_links{
+    margin-top: 20px;
+    font-size: 15px;
+    color: #303133;
+  }
+}
+/* header */
+/*  main  */
+/* footer */
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  background: gainsboro;
+  flex-grow: 1;
+}
+
+header{
+  height: 10%;
+  background: powderblue;
+
+}
+
+footer{
+  width: 100%;
+  background: #293E31;
+}
+
+//products_pics
+.post_wrapper{
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 0fr 0fr 0fr 0fr;
+  row-gap: 0px;
+  column-gap: 0px;
+
+} 
+.item{
+  display: table-cell;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.postw_rapper .post-body {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+// footer
+.footer_top{
+  text-align: center;
+}
+.follow-us {
+  font-family: garamond-premier-pro-caption, serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px !important;
+  line-height: 1em;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.icon-box.icon-inline {
+  display: inline-table;
+  table-layout: fixed;
+  width: auto;
+  text-align: center;
+  vertical-align: bottom;
+  margin-top: 0px !important;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+.style_dark {
+  color: #dddddd;
+}
+}
