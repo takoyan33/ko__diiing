@@ -125,8 +125,6 @@ a:hover {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
 }
@@ -259,10 +257,7 @@ TOP
     height: 2px;
     background-color: #333;
     position: absolute;
-    -webkit-transition: opacity .5s, -webkit-transform .5s;
-    transition: opacity .5s, -webkit-transform .5s;
     transition: transform .5s, opacity .5s;
-    transition: transform .5s, opacity .5s, -webkit-transform .5s;
   }
   * .nav_toggle i:nth-child(1) {
     top: 0;
@@ -276,15 +271,13 @@ TOP
     bottom: 0;
   }
   * .nav_toggle.show i:nth-child(1) {
-    -webkit-transform: translateY(10px) rotate(-45deg);
-            transform: translateY(10px) rotate(-45deg);
+    transform: translateY(10px) rotate(-45deg);
   }
   * .nav_toggle.show i:nth-child(2) {
     opacity: 0;
   }
   * .nav_toggle.show i:nth-child(3) {
-    -webkit-transform: translateY(-12px) rotate(45deg);
-            transform: translateY(-12px) rotate(45deg);
+    transform: translateY(-12px) rotate(45deg);
   }
   * .nav {
     position: fixed;
@@ -295,7 +288,6 @@ TOP
     padding: 1rem;
     opacity: 0;
     visibility: hidden;
-    -webkit-transition: opacity .5s, visibility .5s;
     transition: opacity .5s, visibility .5s;
   }
   * .nav {
@@ -367,22 +359,15 @@ TOP
 }
 
 * .flex-column {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   height: 100%;
   width: 100%;
 }
 
 * main {
   background: gainsboro;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 * header {
@@ -403,20 +388,50 @@ TOP
 }
 
 * .grid {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(280px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   row-gap: 0px;
-  -webkit-column-gap: 0px;
-          column-gap: 0px;
+  column-gap: 0px;
 }
 
-* .item {
-  display: table-cell;
-  height: 100%;
+* .on-img {
   position: relative;
+}
+
+* .img-text {
+  position: absolute;
+  bottom: 50px;
   width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+* .on-img .caption {
+  font-size: 130%;
+  text-align: center;
+  padding-top: 120px;
+  color: #fff;
+}
+
+* .on-img .mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* 絶対位置指定 */
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* マスクを表示しない */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* マスクは半透明 */
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+* .on-img :hover {
+  opacity: 1;
 }
 
 * .postw_rapper .post-body {
@@ -452,4 +467,3 @@ TOP
 * .style_dark {
   color: #dddddd;
 }
-/*# sourceMappingURL=product.css.map */

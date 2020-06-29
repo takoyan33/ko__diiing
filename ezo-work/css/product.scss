@@ -248,10 +248,43 @@ footer{
   column-gap: 0px;
 } 
 .item{
-  display: table-cell;
-  height: 100%;
+  // display: table-cell;
+  // height: 100%;
+  // position: relative;
+  // width: 100%;
+}
+.on-img {
   position: relative;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 50px;
   width: 100%;
+  color: #fff;
+  padding: 10px;
+  font-size: 1.5em;
+  text-align: center;
+}
+.on-img .caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		120px;
+	color:			#fff;
+}
+.on-img .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.on-img :hover {
+	opacity: 1;
 }
 .postw_rapper .post-body {
   table-layout: fixed;
