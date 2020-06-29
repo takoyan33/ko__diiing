@@ -115,7 +115,7 @@ html {
 }
 
 .top {
-  background-image: url(images/ezo-deer.png);
+  background-image: url(../images/ezo-deer.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

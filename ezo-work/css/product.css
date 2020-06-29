@@ -231,7 +231,9 @@ TOP
 }
 
 @media screen and (max-width: 1024px) {
-
+  * {
+    /*ウィンドウ幅が最大1024pxまでの場合に適用*/
+  }
   * .left_side_bar {
     display: none;
   }
@@ -242,7 +244,9 @@ TOP
 }
 
 @media screen and (max-width: 1024px) {
-
+  * {
+    /*ウィンドウ幅が最大1024pxまでの場合に適用*/
+  }
   * .nav_toggle {
     display: block;
     position: relative;
@@ -349,7 +353,9 @@ TOP
 }
 
 @media screen and (max-width: 1024px) {
-
+  * {
+    /*ウィンドウ幅が最大1024pxまでの場合に適用*/
+  }
   * .top {
     padding: 36px;
   }
