@@ -245,7 +245,7 @@ footer{
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   row-gap: 0px;
   column-gap: 0px;
 } 
@@ -319,6 +319,21 @@ footer a{
   color: #fff;
   text-align: center;
 }
+.btn-square{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+.btn-square:active{
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
 .newsletter{
   size: 4px;
 }
@@ -348,6 +363,7 @@ footer a{
   margin: 0.2em;
   padding: 0.5em;
   text-align: center;
+}
 }
 }
 }
