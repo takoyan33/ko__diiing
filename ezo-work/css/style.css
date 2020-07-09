@@ -581,7 +581,6 @@ xcredits
 }
 
 .introduction {
-  margin-left: 245px;
   margin-top: 10rem;
 }
 
@@ -682,7 +681,6 @@ a {
 }
 
 .objective_box .img_shika {
-  margin-left: 50%;
   position: absolute;
 }
 
@@ -1031,10 +1029,6 @@ a:hover {
 }
 
 /* header */
-header {
-  margin-left: 245px;
-}
-
 @media screen and (max-width: 1024px) {
   /*ウィンドウ幅が最大1024pxまでの場合に適用*/
   header {
